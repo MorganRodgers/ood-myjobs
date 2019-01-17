@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/OSC/ood_core.git
+  revision: d8825b4d20b8b097b0003b4bcf2563472ee6c131
+  branch: job_array
+  specs:
+    ood_core (0.7.1)
+      ffi (~> 1.9, >= 1.9.6)
+      ood_support (~> 0.0.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -109,9 +118,6 @@ GEM
       ood_core (~> 0.1)
       rails (~> 4.0, >= 4.0.7)
       redcarpet (~> 3.2)
-    ood_core (0.7.1)
-      ffi (~> 1.9, >= 1.9.6)
-      ood_support (~> 0.0.2)
     ood_support (0.0.3)
     osc-machete (1.2.2)
       mustache
@@ -209,6 +215,7 @@ DEPENDENCIES
   js-routes (~> 1.2.4)
   local_time (~> 1.0.3)
   ood_appkit (~> 1.0)
+  ood_core!
   osc_machete_rails (~> 1.2.2)
   pbs (~> 2.2.1)
   rails (= 4.2.11)

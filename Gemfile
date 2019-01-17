@@ -57,3 +57,4 @@ gem "rails_12factor", group: :production
 gem 'osc_machete_rails', '~> 1.2.2'
 gem 'pbs', '~> 2.2.1'
 gem 'ood_appkit', '~> 1.0'
+gem 'ood_core', git: 'https://github.com/OSC/ood_core.git', branch: 'job_array'
